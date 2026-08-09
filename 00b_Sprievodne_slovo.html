@@ -301,7 +301,7 @@ function openMenu(w,x,y){
       '<tr><th>Gen.</th><td>'+c(t.gen_sg)+'</td><td>'+c(t.gen_pl)+'</td></tr>'+
       '<tr><th>Dat.</th><td>'+c(t.dat_sg)+'</td><td>'+c(t.dat_pl)+'</td></tr>'+
       '<tr><th>Ak.</th><td>'+c(t.akk_sg)+'</td><td>'+c(t.akk_pl)+'</td></tr></table>';
-  }else if(type==='verb'){tableHtml='<p class="dnote">Úplné časovanie otvoríš odkazom „Časovanie".</p>';}
+  }else if(type==='verb'){tableHtml='<p class="dnote">Úplné časovanie otvoríte odkazom „Časovanie".</p>';}
   else if(type==='noun'){tableHtml='<p class="dnote">Skloňovanie nájdeš cez Wiktionary.</p>';}
   const lemmaLine=(e.l&&e.l!==surface)?' · základný tvar: <b>'+esc(e.l)+'</b>':'';
   const posLine=posLabel?'<p class="dpos"><b>'+esc(posLabel)+'</b>'+lemmaLine+'</p>':'';
